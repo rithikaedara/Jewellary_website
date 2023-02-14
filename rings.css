@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+  
+  }
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background:radial-gradient(#8a8a8a)
+  }
+  
+/* .flex-container > div {
+    background-color: #f1f1f1;
+    width: 380px;
+    margin: 10px;
+    text-align: center;
+    line-height: 85px;
+    font-size: 30px;} */
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background:radial-gradient(#fff,#ff523b)
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    /* float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;*/
+    padding: 14px 16px; 
+    text-decoration: none;
+    color:black;
+  }
+  
+  .topnav{
+      display:flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: auto;
+  }
+  /* Change color on hover 
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }*/
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  } */
+  
+ 
+  .my{
+    border-radius: 8px;
+  text-align: left ;
+  margin-top: 0%;
+  }
+  /* ===================================search bar================================ */
+.search-container {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    padding: 12px;
+    margin-top: 20px;
+    font-size: 17px;
+    border: none;
+    width: 500px;
+    background: #a6a1a13b;
+    border-radius: 10px;
+}
+
+.btn {
+    padding: 14px;
+    border-radius: 10px;
+    border: none;
+    /* margin-left: 0px; */
+    background: #a6a1a13b;
+}
+/* ================================================================================== */
+
+a{
+    text-decoration: none; 
+    color:#555;
+}
+p{
+    color:#555;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+.row{
+    display: flex;
+    align-items:center;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+col-2{
+    flex: basics 50%;
+    min-width:300px;
+}
+.col-2 img{
+    max-width:100%;
+    padding:50px 0;
+}
+.header{
+    background:radial-gradient(#fff,#ffd6d6)
+}
+.header.row{
+    margin-top:70px;
+}
+
+.catrgories{
+    margin:70px 0;
+}
+.col-3{
+    flex-basis:30%;
+    min-width:250px;
+    margin-bottom: 30px;
+}
+.col-3 img {
+    width: 100%;
+}
+.small-container{
+    max-width: 1080px;
+    margin:auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.col-4{
+    flex-basis: 25%;
+    padding:10px;
+    min-width:200px;
+    margin-bottom:50px;
+    transition: transform 0.5s;
+}
+.col-4 img{
+    width:100% ;
+}
+.title{
+    text-align:center;
+    margin:10 auto 90px;
+    position:relative;
+    line-height:60px;
+    color:#555;
+
+}
+.title::after{
+    content:'';
+    background:#ff523b ;
+    width:80px;
+    height:5px;
+    border-radius: 5px;
+    position:absolute;
+    bottom:0;
+    left:50%;
+    transform:translatex(-50%);
+}
+h4{
+    color:#555;
+    font-weight:normal;
+}
+.cal-4 p{
+    font-size:14px;
+}
+.col-4:hover{
+    transform:translate(-5px)
+}
+/* ----------ALL PRODUCTS page */
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+
+/* --------------footer----------- */
+.footer{
+    background:#000 ;
+    color:#8a8a8a;
+    font-size:14px;
+    padding:60px 0 20px;
+}
+.footer p{
+    color: #8a8a8a;
+}
+.footer h3{
+    color:#fff;
+    margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3 , .footer-col-4{
+  min-width: 250px;
+  margin-bottom:20px;
+}
+.footer-col-1{
+    flex-basis:30%;
+}
+.footer-col-2{
+    flex:1;
+    text-align:center;
+
+}
+.footer-col-2 img{
+    width: 180px;
+    margin: bottom 20px; 
+}
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+.app-logo{
+    margin-top:20px;
+
+}
+.app-logo img{
+    width:140px;
+}
